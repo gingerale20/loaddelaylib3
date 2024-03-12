@@ -1,10 +1,8 @@
 Syntax:
-import loaddelaylib3.delay
+import delay
 
 print_d("""[Words]""", "[delay number]")
 
 Supports colorama. Variable 'delay' converted from string to float.
-You can also just use delay.py
-import delay
-
-print_d("""[Words]""", "[delay]")
+This means decimals are supported.
+Because of this, errors will occur if you enter an alphabetical character.
