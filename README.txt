@@ -6,7 +6,7 @@
                 \/      \/    \/    \/          \/\/                  \/       \/ 
 
 Syntax:
-import delay
+from delay import *
 
 print_d("""[Words]""", "[delay number]")
 
