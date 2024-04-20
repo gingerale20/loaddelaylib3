@@ -8,9 +8,12 @@
 Syntax:
 from delay import *
 
-print_d("""[Words]""", "[delay number]")
+delay.print("""[Words]""", "[delay number]")
 
-If 'import delay' doesn't work, then type 'from delay import print_d'.
+If you want this same affect before an input, use:
+
+delay.in_pr("[Prompt]", "[delay number]")
+var = input('')
 
 Supports colorama. Variable 'delay' converted from string to float.
 This means decimals are supported.
